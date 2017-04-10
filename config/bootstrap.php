@@ -231,3 +231,5 @@ Plugin::load('TwitterBootstrap');
 Plugin::load('Stock', ['bootstrap' => false, 'routes' => true]);
 
 Plugin::load('Auth', ['bootstrap' => false, 'routes' => true]);
+
+env('DATABASE_HOST');
